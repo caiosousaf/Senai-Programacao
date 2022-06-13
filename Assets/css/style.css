@@ -22,7 +22,6 @@ body {
     height: 45px;
     border-radius: 100px;
     border: none;
-
     padding: 10px;
     padding-left: 20px;
     padding-right: 20px;
@@ -137,7 +136,7 @@ header > a > img {
 }
 
 .c3_title {
-    color: #191919;
+    color: #FDC55E;
 }
 
 #ponto_title {
@@ -299,7 +298,7 @@ header > a > img {
 }
 
 #preco_prod {
-    background-color: #191919;
+    background-color: #FDC55E;
     width: 50px;
     height: 50px;
 
@@ -378,11 +377,9 @@ header > a > img {
     margin-top: 200px;
     width: 100%;
     max-width: 1300px;
-    position: absolute;
-    display: flex;
     align-items: center;
     align-content: center;
-    margin-left: 40px;
+    margin-left: 280px;
     
 }
 
@@ -397,7 +394,7 @@ header > a > img {
 }
 
 #title3 > div > p {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Verdana, Helvetica, sans-serif;
     font-weight: 600;
     font-size: 50px;
 }
@@ -433,3 +430,54 @@ header > a > img {
     text-align: left;
     margin-top: 20px;
 }
+
+#title {
+    margin-top: 900px;
+}
+
+#main-4-Menu, #main-4-Love {
+    color:#f54747;
+}
+
+#main-4-Always {
+    color: #FDC55E;
+}
+
+#main-4-Menu, #main-4-That, #main-4-Always, #main-4-MakeYou {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    padding-right: 15px;
+}
+
+.l-1, #l-2 {
+    display: flex;
+    height: 60px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.l-1 {
+    padding-bottom: 10px;
+}
+
+#l-2 {
+    margin-bottom: 4px;
+    
+}
+
+#main-4-title {
+    font-size: 50px;
+    position: relative;
+    margin-top: 900px;
+}
+
+#main-4-Love {
+    margin-left: 10px;
+}
+
+#main_4_menu {
+    word-spacing: 20px;
+    margin-top: 90px;
+}
+
