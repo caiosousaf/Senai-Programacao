@@ -12,7 +12,7 @@ body {
 
 #main1 {
     width: 100%;
-    max-width: 1400px;
+    max-width: 87.5rem;
     display: inline-block;
 }
 
@@ -35,15 +35,12 @@ body {
     border-color: #5b5b5b;
     background-color: #FFFFFF;
     color: #191919;
-
     border-radius: 100px;
     border: 2px #5b5b5b;
-
     padding: 10px;
     padding-left: 20px;
     padding-right: 20px;
     border-style: outset;
-
     height: 45px;
 }
 
@@ -230,6 +227,7 @@ header > a > img {
 
 #main2 {
     margin-top: 100px;  
+    width: 100%;
 }
 
 #tit2 {
@@ -483,8 +481,52 @@ header > a > img {
 
 #p1-main-5, #p3-main-5 {
     color: #F54748;
+    margin-left: 1rem;
 }
+
 
 #p2-main-5 {
     color: #FDC55E;
+}
+
+#main-5-Dir {
+    float: right;
+    margin-left: 62rem;
+    position: absolute; /*Relative*/
+    
+}
+
+#main-5-Esq {
+    float: left;
+    margin-top: 200px;
+    margin-left: 20rem;
+}
+
+#l-01-main-5, #l-02-main-5 {
+    display: flex;
+    height: 60px;
+    margin-top: 1rem;
+}
+
+#main-5-Esq-Title {
+    font-size: 50px;
+}
+
+#p-Esq-Q{
+    width: 28rem;
+    margin-top: 1rem;
+}
+
+#to-main-5 {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+#inimigos {
+    margin-top: 3rem;
+    margin-right: 22rem;
+}
+
+#google {
+    margin-right: 1.5rem;
 }
