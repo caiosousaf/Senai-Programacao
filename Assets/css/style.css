@@ -1,3 +1,7 @@
+@media only screen and (max-width: 480px) {
+      
+    }
+
 * {
     margin: 0px;
     padding: 0px;
@@ -6,14 +10,14 @@
 
 body {
     text-align: center;
-    width: 100%;
+
     background-color: #ffffff;
 }
 
 #main1 {
     width: 100%;
     max-width: 87.5rem;
-    display: inline-block;
+
 }
 
 .bt01 {
@@ -119,7 +123,7 @@ header > a > img {
 }
 
 .c1_title, .c2_title, .c3_title {
-    font-family: 'Passion One', cursive;
+    
     font-weight: 100;
     padding-right: 15px;
 }
@@ -149,7 +153,7 @@ header > a > img {
 }
 
 .subtitle {
-    font-family: sans-serif;
+    
     margin-top: 10px;
 }
 
@@ -183,6 +187,10 @@ header > a > img {
 #left_main_nav{
     display: flex;
     margin-top: 30px;
+}
+
+.pratos {
+    width: 100%;
 }
 
 #pb01 > p {
@@ -305,7 +313,7 @@ header > a > img {
     color: #FFFFFF;
     text-align: center;
     font-size: 18px;
-    font-family: 'Courier New', Courier, monospace;
+   
     margin-left: 200px;
     
     border-radius: 50%;
@@ -392,7 +400,7 @@ header > a > img {
 }
 
 #title3 > div > p {
-    font-family: Verdana, Helvetica, sans-serif;
+    
     font-weight: 600;
     font-size: 50px;
 }
@@ -442,7 +450,7 @@ header > a > img {
 }
 
 #main-4-Menu, #main-4-That, #main-4-Always, #main-4-MakeYou {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
     font-weight: 100;
     padding-right: 15px;
 }
@@ -529,4 +537,76 @@ header > a > img {
 
 #google {
     margin-right: 1.5rem;
+}
+
+#footer-1 {
+    margin-left: 20rem;
+}
+
+#footer-p-2 {
+    width: 300px;
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+#footer-title{
+    color: #F54748;
+    display: flex;
+    height: 60px;
+    font-size: 50px;
+    
+}
+
+#meio {
+    margin-left: 1.2rem;
+    margin-right: 1.2rem;
+}
+
+
+#footer-list-1 {
+   margin-left: 6rem;
+    list-style: none;
+    margin-bottom: 10rem
+}
+
+#footer-list-2 {
+    margin-left: 6rem;
+    list-style: none;
+}
+
+
+
+#lista-011, #lista-012 {
+    list-style: none;
+    margin-left: 1rem;
+}
+
+.footer {
+    
+    color: #F54748;
+    font-size: 1.4rem;
+}
+
+footer {
+    display: flex;
+    margin-top: 60rem;
+}
+
+#footer-list-3 {
+    margin-left: 5rem;
+    justify-self: auto;
+}
+
+h4 {
+    color: #F54748;
+}
+
+#email {
+    width: 200px;
+    height: 40px;
+    background-color: #bdb4b4;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.694);
+    border-radius: 100px;
+    margin-top: 15px;
+   
 }

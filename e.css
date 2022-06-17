@@ -1,0 +1,32 @@
+@media only screen and (max-width: 481px) {
+     a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    #pontos-3 {
+        margin-left: 16rem;
+        margin-bottom: 0.8rem;
+    }
+    
+}
+
+@media only screen and (min-width: 482px) {
+    .menu {
+        display: 0;
+    }
+    
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    #pontos-3 {
+        display: none;
+    }
+}
+
