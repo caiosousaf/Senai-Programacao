@@ -1,7 +1,6 @@
 * {
     margin: 0px;
     padding: 0px;
-    font-family: sans-serif;
 }
 
 body {
@@ -301,7 +300,7 @@ header {
     }
 
     .title {
-        font-size: 7px;
+        font-size: 75px;
     }
 }
 
@@ -399,6 +398,7 @@ header {
     color: white;
     text-align: center;
     font-size: 18px;
+    font-family: 'Passion One', cursive;
     margin-left: 200px;
     
     border-radius: 50%;
