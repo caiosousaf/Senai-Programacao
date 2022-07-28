@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <div class="fundo">
+        <h1>Caio Sousa</h1>
+        <div class="calculadora">
+            <h3 class="">CALCULADORA</h3>
+            <!-- Put the results  -->
+            <table>
+                <input type="text"   class="botao" style="width: 230px;" id="result" placeholder="0" disabled></input>
+                <tr>
+                    
+                    <td><input type="button" class="botao" value="7" onclick="input('7')"></td>
+                    <td><input type="button" class="botao" value="8" onclick="input('8')"></td>
+                    <td><input type="button" class="botao" value="9" onclick="input('9')"></td>
+                    <td><input type="button" class="botao" value="DEL" id="del" onclick="del()"></td>
+                </tr>
+
+                <tr>
+                    <td><input type="button" class="botao" value="4" onclick="input('4')"></td>
+                    <td><input type="button" class="botao" value="5" onclick="input('5')"></td>
+                    <td><input type="button" class="botao" value="6" onclick="input('6')"></td>
+                    <td><input type="button" class="botao" value="+" onclick="input('+')"></td>
+                    
+                </tr>
+                <tr>
+                    <td><input type="button" class="botao" value="1" onclick="input('1')"></td>
+                    <td><input type="button" class="botao" value="2" onclick="input('2')"></td>
+                    <td><input type="button" class="botao" value="3" onclick="input('3')"></td>
+                    <td><input type="button" class="botao" value="-" onclick="input('-')"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" class="botao" value="." onclick="input('.')"></td>
+                    <td><input type="button" class="botao" value="0" onclick="input('0')"></td>
+                    <td><input type="button" class="botao" value="/" onclick="input('/')"></td>
+                    <td><input type="button" class="botao" value="x" onclick="input('*')"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" class="botao" value="RESET" id="reset" onclick="reset()"></td>
+                    <td><input type="button" class="botao" value="=" id="equals" onclick="calc()"></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
