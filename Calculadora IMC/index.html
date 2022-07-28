@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+      <script src="./imc.js"></script>
+    <div class="box">
+        <fieldset>
+            <legend>Calculadora - IMC</legend>
+       <br>
+        <div class="inputBox">
+            <input
+              type="text"
+              name="nome"
+              id="nome"
+              class="inputUser"
+
+            />
+            <label for="nome" class="labelInput">Nome: </label>
+        </div>
+        <br /> <br />
+        <div class="inputBox">
+
+            <input type="number" name="altura" id="altura" class="inputUser">
+            <label for="altura" class="labelInput">Altura</label>
+        </div>
+        <br /> <br />
+        <div class="input">
+            <div class="inputBox">
+                <input
+                  type="number"
+                  name="telefone"
+                  id="peso"
+                  class="inputUser"
+                />
+                <label for="telefone" class="labelInput">Peso</label>
+        </div>
+
+    <button id='calcular' onclick="imc()">Calcular</button>
+    <div class="result" id='resultado'></div>
+    </div>
+  </body>
+</html> 
