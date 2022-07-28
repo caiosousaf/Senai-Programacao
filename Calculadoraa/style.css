@@ -7,6 +7,7 @@
     height: 100vh;
     color: #fff;
     font-family: Arial, Helvetica, sans-serif;
+    border-radius: 8px;
     text-align: center;
 }
 .calculadora{
@@ -16,6 +17,7 @@
     left: 50%;
     transform: translate(-50%,-50%);
     border-radius: 15px;
+    border-radius: 8px;
     padding: 15px;
 }
 .botao{
@@ -27,6 +29,7 @@
     background-color: rgb(38, 53, 94);
     border: none;
     color: #fff;
+    border-radius: 8px;
 }
 .botao:hover{
     background-color: rgb(51, 83, 79);
@@ -40,4 +43,5 @@
     color: rgb(117, 106, 219);
     text-align: right;
     padding: 5px;
+    border-radius: 8px;
 }
